@@ -13,8 +13,9 @@ public class Facebook {
 		driver.findElement(By.id("email")).sendKeys("vaibhav");
 		Thread.sleep(3000);
 		driver.findElement(By.id("pass")).sendKeys("1234");
-		driver.findElement(By.id("u_0_d_x8")).click();
-
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//button[@name='login']")).click();
+                                    
 	}
 
 }
