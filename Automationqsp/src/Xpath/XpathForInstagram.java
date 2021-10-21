@@ -13,7 +13,7 @@ public class XpathForInstagram {
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("input[class='_2hvTZ pexuQ zyHYP']")).sendKeys("abcdef@gmail.com");
 		driver.findElement(By.xpath("//input[@class='_2hvTZ pexuQ zyHYP']")).sendKeys("2222000");
-		driver.findElement(By.xpath("//div[@class='            qF0y9          Igw0E     IwRSH      eGOV_         _4EzTm    bkEs3                          CovQj                  jKUp7          DhRcB                                                    ']")).click();
+		driver.findElement(By.xpath("//div[contains(@class,'qF0y9']")).click();
 		
 
 	}
